@@ -27,8 +27,8 @@ public class ViaCepApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ViaCepApplication.class, args);
 		
-		String username="jaquebela@outlook.com";
-		String senha="Crepusculo19";
+		String username="meuemail@outlook.com";
+		String senha="minhasenha";
 		
         Properties props = new Properties();
         /** Parâmetros de conexão com servidor Hotmail */
@@ -60,7 +60,7 @@ public class ViaCepApplication {
               message.setFrom(new InternetAddress(username)); //Remetente
 
               message.setRecipients(Message.RecipientType.TO,
-                                InternetAddress.parse("jaquebela@outlook.com")); //Destinatário(s)
+                                InternetAddress.parse("emaildestino@hotmail.com")); //Destinatário(s)
               
               message.setSubject("TESTE – CEP -\n"
               		+ "Seleção DEV Java - <Jaqueline S. Moreno>.");//Assunto
