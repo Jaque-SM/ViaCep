@@ -1,0 +1,19 @@
+//Esse script nao usei no projeto, pois o spring boot ja cria a database
+juntamente com o banco de dados
+
+1-create database viacep;
+
+2-use viacep;
+
+3-create table pessoa (
+  id bigint (20)
+  cep varchar,
+  logradouro varchar,
+  complemento varchar,
+  bairro varchar,
+  localidade varchar,
+  uf varchar,
+  ibge varchar,
+  gia varchar,
+  ddd varchar,
+  siafi varchar );
