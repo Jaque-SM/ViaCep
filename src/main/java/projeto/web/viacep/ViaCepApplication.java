@@ -116,11 +116,7 @@ public class ViaCepApplication {
               throw new RuntimeException(e);
         }
         
-        
-		
-	
-	}
-		
+	}	
 	
 
 }
